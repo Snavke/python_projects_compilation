@@ -1,10 +1,10 @@
-# prompts users to enter first number
-num1 = float(input("Enter Number: "))
-# prompts user to enter second number
-num2 = float(input("Enter Number: "))
+# prompt user to initialize the first number
+first_number = float(input("Enter Number: "))
+# prompt user to initialize the second number
+second_number = float(input("Enter Number: "))
 
-# Raises the value of the first number to the second number
-raised_value = num1 ** num2
+# Raise the value of the first number to the second number
+raised_value = first_number ** second_number
 
-# Prints the raised value
+# Print the raised value
 print (raised_value)
