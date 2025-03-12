@@ -1,9 +1,9 @@
-# prompts user to enter 2 numbers for comparison
-num1 = int(input("Enter Number: "))
-num2 = int(input("Enter Number: "))
+# prompt user to to initialize first and second number
+first_number = int(input("Enter Number: "))
+second_number = int(input("Enter Number: "))
 
-# divides the value of both variables using floor division to eliminate decimal point
-quotient_floor = num1 // num2
+# divide the value of both variables with floor division to eliminate decimal point
+quotient_floor = first_number // second_number
 
-# prints quotient without decimal points.
+# print quotient without decimal points.
 print (quotient_floor)
