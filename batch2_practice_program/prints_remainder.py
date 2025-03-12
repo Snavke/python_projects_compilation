@@ -1,10 +1,10 @@
-# prompts user to enter 2 numbers for comparison
-num1 = float(input("Enter Number: "))
-num2 = float(input("Enter Number: "))
+# prompt user to initialize the first and second number
+first_number = float(input("Enter Number: "))
+second_number = float(input("Enter Number: "))
 
 # use modulus operator to divide both values 
-remainder = num1 % num2
+remainder = first_number % second_number
 
-# prints the remainder
+# print the remainder
 print (remainder)
 
