@@ -1,10 +1,10 @@
-# prompts users to enter first number
-num1 = float(input("Enter Number: "))
-# prompts user to enter second number
-num2 = float(input("Enter Number: "))
+# prompt users to initialize first number
+first_number = float(input("Enter Number: "))
+# prompt user to initialize second number
+second_number = float(input("Enter Number: "))
 
 # Divides the values of both variable
-quotient = num1 / num2
+quotient = first_number / second_number
 
-# Prints quotient
+# print quotient
 print (quotient)
