@@ -1,9 +1,9 @@
-# prompts user to enter 2 numbers for comparison
-num1 = float(input("Enter Number: "))
-num2 = float(input("Enter Number: "))
+# prompts user to initialize the first and second number
+first_number = float(input("Enter Number: "))
+second_number = float(input("Enter Number: "))
 
-# subtracts the values of both variable
-difference = num1 - num2
+# subtract the values of both variable
+difference = first_number - second_number
 
-# prints the subtracted value
+# print the subtracted value
 print (difference)
