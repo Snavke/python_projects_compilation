@@ -1,12 +1,12 @@
-# prompts users to enter first number
-num1 = float(input("Enter Number: "))
-# prompts user to enter second number
-num2 = float(input("Enter Number: "))
+# prompt user to initialize first number
+first_number = float(input("Enter Number: "))
+# prompt user to initialize second number
+second_number = float(input("Enter Number: "))
 
-# compares variables "num1" & "num2"
-if num1 > num2:
-    # prints the value of variable num1 if value is bigger than num2
-    print (num1)
-    # prints the value of variable num2 if condition is not met
+# compare variables 
+if first_number > second_number:
+    # print the value of variable 1 if value is bigger than variable 2
+    print (first_number)
+    # print the value of variable 2 if condition is not met
 else: 
-    print (num2)
+    print (second_number)
