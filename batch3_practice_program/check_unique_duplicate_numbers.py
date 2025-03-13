@@ -4,13 +4,10 @@ number_inputs = []
 while True:
     numbers = int(input("Enter Number: "))
 
-# exit loop
-
 # check input
     if numbers in number_inputs:
 # display message if entered number "unique" or "duplicated" after user enters number
         print ("Duplicate")
-        break
     else:
         number_inputs.append(numbers)
         print ("Unique")
