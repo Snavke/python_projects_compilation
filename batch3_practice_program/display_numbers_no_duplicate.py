@@ -6,7 +6,14 @@ for i in range (0,10):
     # use .append to add user inputs to existing list
     number_inputs.append(numbers)
 
-print (number_inputs)
-# make way to determine if number is duplicated
+# create list to store unique numbers
+unique_inputs = []
+
+# determine if a number is duplicated
+for item in number_inputs:
+    # if values in "number_inputs" is equal to one, we add it to the list "unique_inputs"
+    if number_inputs.count(item) == 1:
+        unique_inputs.append(item)
 
 # print numbers without duplicate
+print (unique_inputs)
