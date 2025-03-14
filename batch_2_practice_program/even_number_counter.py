@@ -3,9 +3,9 @@ count_of_even = 0
 
 # loop for entering 10 numbers
 for i in range (0,10):
-    numbers = float(input("Enter Number: "))
+    number_input = float(input("Enter Number: "))
 # condition to determine if number is even
-    if numbers % 2 == 0:
+    if number_input % 2 == 0:
 # if condition is met, count as +1
         count_of_even += 1
 # print the amount of even numbers
