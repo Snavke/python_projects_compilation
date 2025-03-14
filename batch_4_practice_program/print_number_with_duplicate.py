@@ -6,7 +6,7 @@ for i in range (0, 10):
     numbers = int(input("Enter Number: "))
 # add numbers to existing list
     number_inputs.append(numbers)
-# list to store unique inputs
+# list to store duplicated inputs
 duplicated_inputs = []
 # check for duplicate
 for item in number_inputs:
