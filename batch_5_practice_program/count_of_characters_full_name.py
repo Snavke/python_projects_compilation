@@ -2,7 +2,7 @@
 full_name = str(input("Please Enter Full Name: "))
 
 # Count the amount of characters & store count to a variable
-count_of_character = len(full_name) 
+count_of_character = len(full_name.replace(" ", "")) 
 
 # Print count
 print (count_of_character)
