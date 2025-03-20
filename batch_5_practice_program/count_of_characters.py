@@ -1,8 +1,8 @@
-# Prompt user to enter a sentence
-sentence = str(input("Please Enter a Sentence: "))
+# Prompt user to enter full Name
+full_name = str(input("Please Enter a Sentence: "))
 
 # Count the amount of characters & store count to a variable
-count_of_character = len(sentence) 
+count_of_character = len(full_name) 
 
 # Print count
 print (count_of_character)
