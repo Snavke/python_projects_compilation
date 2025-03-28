@@ -1,5 +1,5 @@
 # prompt user to enter a character with spaces before the characters
-user_input = str(input('Enter Charaters with Left Leading Spaces [Ex: "   Hello World"]: '))
+user_input = str(input('Enter a String with Left Leading Spaces[Ex: "   Hello World"]: '))
 
 # use index method to track place in string
 index = 0
