@@ -2,7 +2,7 @@
 user_input = str(input("Enter a String of Characters: "))
 
 # prompt to get suffix
-user_input_suffix = str(input("Enter Suffix to Remove: "))
+user_input_suffix = str(input("Enter Suffix to Check: "))
 
 # compare last characters of text with suffix
 if user_input[-len(user_input_suffix):] == user_input_suffix:
