@@ -13,5 +13,5 @@ while index >= 0 and user_input[index] == " ":
 # remove trailing spaces
 user_input = user_input[:index + 1]
 
-# print user input without left leading spaces
-print (user_input)
+# print user input without left leading spaces with visual markers
+print (f"|{user_input}|")
