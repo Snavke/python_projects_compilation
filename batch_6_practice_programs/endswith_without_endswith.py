@@ -1,8 +1,8 @@
 # prompt to get main string
-user_input = str(input("Enter a String of Characters: "))
+user_input = str(input("Enter a String of Characters: ")).lower()
 
 # prompt to get suffix
-user_input_suffix = str(input("Enter Suffix to Check: "))
+user_input_suffix = str(input("Enter Suffix to Check: ")).lower()
 
 # compare last characters of text with suffix
 if user_input[-len(user_input_suffix):] == user_input_suffix:
